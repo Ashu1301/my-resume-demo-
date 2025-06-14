@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+</head>
+<body>
+    <h2>Forms in Html</h2>
+    <form action="resume.html">
+     <label for="fname">First Name:</label> 
+     <input id="fname" type="text" minlength="5" maxlength="14" required placeholder="pls enter your name">
+     <br><br>
+     <label for="lname">Last Name:</label> 
+     <input id="lname" type="text" placeholder="please enter your last name">
+     <br><br>
+     <label for="age">Age:</label>
+     <input id="age" type="number" placeholder="enter your age" required>
+     <br><br>
+     <label for="email">Email:</label>
+     <input id="email" type="email" placeholder="enter your email" required>
+     <br><br>
+     <label for="date">Date:</label>
+     <input id="date" type="date" required>
+     <br><br>
+     <label for="password">Password:</label>
+     <input id="password" type="password" placeholder="please enter your password" required>
+     <br><br>
+     <p required>Gender:</p>
+     <label for="Male">Male</label><input type="radio" id="Male" name="Gender">
+     <label for="Female">Female</label><Input type="radio" id="Female" name="Gender">
+     <br><br>  
+    <label for="color">Select color of your t-shirt</label>
+    <input id="color" type="color">    
+    <br><br>
+    <label for="paymentoption">Please select a payment option </label>
+    <select name="payment" id="paymentoption" required>
+        <option value=""></option>
+    <option value="">BHIM UPI(Gpay,Paytm,PhonePay)</option>
+    <option value="">Credit Card</option>
+    <option value="">Net Banking</option>
+    <option value="">Amazon pay</option>
+    </select>
+    <br><br>
+    <label for="cmt">Please provide your valuable feedback</label>
+    <textarea name="cmt" id="cmt" placeholder="please enter your comment here...."></textarea>
+    <br><br>
+    <input type="reset">
+    <input type="submit">
+
+    </form>
+</body>
+</html>
